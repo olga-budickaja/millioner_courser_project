@@ -18,23 +18,7 @@ text_welcome_lines = [
     ["Для початку гри натисніть ", "ENTER"]
 ]
 
-text_balls_lines = [
-    "1 000 000",
-    "500 000",
-    "250 000",
-    "125 000",
-    "64 000",
-    "32 000",
-    "16 000",
-    "8 000",
-    "4 000",
-    "2 000",
-    "1 000",
-    "500",
-    "300",
-    "200",
-    "100",
-]
+
 
 questions = [
     {
@@ -153,6 +137,23 @@ questions = [
             {"text": "C. Залізо", "result": False},
             {"text": "D. Свинець", "result": False}
         ]
+    },
+    {
+    "question": "Яка країна є найбільшим виробником шоколаду?",
+    "answers": [
+        {"text": "A. Бельгія", "result": False},
+        {"text": "B. Швейцарія", "result": False},
+        {"text": "C. Німеччина", "result": False},
+        {"text": "D. Кот-д'Івуар", "result": True}
+    ]
+    },
+    {
+        "question": "Яка з цих планет не має супутників?",
+        "answers": [
+            {"text": "A. Марс", "result": False},
+            {"text": "B. Венера", "result": True},
+            {"text": "C. Юпітер", "result": False},
+            {"text": "D. Сатурн", "result": False}
+        ]
     }
 ]
-
